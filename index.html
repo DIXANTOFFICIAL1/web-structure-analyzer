@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Analyzer Pro</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light">
+
+<div class="container">
+
+<header>
+  <h1>HTML Analyzer Pro</h1>
+  <div>
+    <button id="themeToggle">🌙</button>
+  </div>
+</header>
+
+<section class="upload-section">
+  <div class="drop-area" id="dropArea">
+    <p>Drag & Drop HTML File Here</p>
+    <input type="file" id="fileInput" accept=".html">
+  </div>
+
+  <textarea id="codeInput" placeholder="Or paste HTML code here..."></textarea>
+
+  <button id="analyzeBtn">Analyze Code</button>
+</section>
+
+<section class="dashboard">
+
+  <div class="card">
+    <h3>Code Metrics</h3>
+    <div id="metrics"></div>
+  </div>
+
+  <div class="card">
+    <h3>SEO Report</h3>
+    <div id="seo"></div>
+  </div>
+
+  <div class="card">
+    <h3>Accessibility Report</h3>
+    <div id="accessibility"></div>
+  </div>
+
+  <div class="card">
+    <h3>Security Report</h3>
+    <div id="security"></div>
+  </div>
+
+  <div class="card full">
+    <h3>Tag Distribution</h3>
+    <canvas id="tagChart"></canvas>
+  </div>
+
+</section>
+
+<button id="exportBtn">Download JSON Report</button>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
