@@ -2,7 +2,7 @@ const fileInput = document.getElementById("fileInput");
 const codeInput = document.getElementById("codeInput");
 const analyzeBtn = document.getElementById("analyzeBtn");
 const themeToggle = document.getElementById("themeToggle");
-const exportBtn = document.getElementById("export  Btn");
+const exportBtn = document.getElementById("exportBtn");
 
 let analysisResult = {};
 
