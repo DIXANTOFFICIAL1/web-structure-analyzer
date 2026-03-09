@@ -12,5 +12,4 @@ data:Object.values(tagCounts)
 }]
 }
 })
-
 }
