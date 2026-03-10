@@ -8,8 +8,7 @@ data:{
 labels:Object.keys(tagCounts),
 datasets:[{
 label:"Tag Frequency",
-data:Object.values(tagCounts)
-}]
+data:Object.values(tagCounts)}]
 }
 })
 }
