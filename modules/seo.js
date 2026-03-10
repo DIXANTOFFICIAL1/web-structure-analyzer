@@ -5,5 +5,4 @@ const hasMetaDesc = /<meta\s+name="description"/i.test(content)
 
 return{
 hasTitle,
-hasMetaDesc
-}}
+hasMetaDesc }}
