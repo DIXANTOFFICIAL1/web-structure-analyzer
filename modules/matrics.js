@@ -21,5 +21,4 @@ characters,
 tagCounts,
 domNodes
 }
-
 }
