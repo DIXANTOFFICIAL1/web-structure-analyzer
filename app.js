@@ -4,7 +4,6 @@ const analyzeBtn=document.getElementById("analyzeBtn")
 const dropArea=document.getElementById("dropArea")
 const themeToggle=document.getElementById("themeToggle")
 const exportBtn=document.getElementById("exportBtn")
-
 let analysisResult={}
 
 themeToggle.onclick=()=>{
