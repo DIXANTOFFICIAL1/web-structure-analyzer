@@ -3,7 +3,6 @@ export function calculateMetrics(content){
 const lines = content.split("\n")
 const words = content.split(/\s+/).length
 const characters = content.length
-
 const tagMatches = content.match(/<(\w+)/g) || []
 
 const tagCounts = {}
