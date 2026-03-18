@@ -18,7 +18,6 @@ themeToggle.onclick = () => {
 document.body.classList.toggle("dark");
 };
 
-// DRAG & DROP
 dropArea.addEventListener("dragover", e => {
 e.preventDefault();
 });
