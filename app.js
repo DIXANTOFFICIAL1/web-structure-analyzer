@@ -32,7 +32,6 @@ const content = await file.text();
 analyze(content);
 });
 
-// FILE SELECT (FIX ADDED)
 fileInput.addEventListener("change", async () => {
 const file = fileInput.files[0];
 if (!file) return;
