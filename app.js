@@ -104,7 +104,6 @@ Inline JS handlers: ${analysisResult.security.inlineJS}
 `;
 }
 
-// EXPORT
 exportBtn.onclick = () => {
 exportReport(analysisResult);
 };
