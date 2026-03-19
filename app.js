@@ -39,7 +39,6 @@ const content = await file.text();
 analyze(content);
 });
 
-// BUTTON CLICK
 analyzeBtn.onclick = async () => {
 
 let content = codeInput.value;
