@@ -21,7 +21,6 @@ document.body.classList.toggle("dark");
 dropArea.addEventListener("dragover", e => {
 e.preventDefault();
 });
-
 dropArea.addEventListener("drop", async e => {
 e.preventDefault();
 
