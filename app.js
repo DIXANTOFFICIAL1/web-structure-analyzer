@@ -102,7 +102,6 @@ document.getElementById("security").innerHTML =
 Inline JS handlers: ${analysisResult.security.inlineJS}
 `;
 }
-
 exportBtn.onclick = () => {
 exportReport(analysisResult);
 };
