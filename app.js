@@ -56,7 +56,6 @@ analyze(content);
 
 function analyze(content) {
 console.log("Analyzing...");
-
 document.getElementById("preview").srcdoc = content;
 
 const metrics = calculateMetrics(content);
