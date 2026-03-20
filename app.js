@@ -39,7 +39,6 @@ analyze(content);
 });
 
 analyzeBtn.onclick = async () => {
-
 let content = codeInput.value;
 
 if (fileInput.files.length > 0) {
