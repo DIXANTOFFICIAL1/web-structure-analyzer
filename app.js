@@ -13,7 +13,6 @@ const themeToggle = document.getElementById("themeToggle");
 const exportBtn = document.getElementById("exportBtn");
 
 let analysisResult = {};
-
 themeToggle.onclick = () => {
 document.body.classList.toggle("dark");
 };
