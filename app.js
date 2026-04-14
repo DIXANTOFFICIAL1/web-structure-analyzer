@@ -73,7 +73,7 @@ renderChart(metrics.tagCounts);
 }
 
 function renderResults() {
-
+  
 document.getElementById("metrics").innerHTML =
 `
 Lines: ${analysisResult.metrics.lines}<br>
